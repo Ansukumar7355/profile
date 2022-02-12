@@ -1,0 +1,123 @@
+
+<!-- saved from url=(0043)http://127.0.0.1:5500/Bussiness%20card.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+            #Maincontainer{
+                
+                height: vh;
+            }
+            #container{
+               
+                width: 350px;
+                
+                margin: auto;
+            }
+            #header{
+                text-align: center;
+                background-color: violet;
+                
+            }
+            img{
+                border-radius: 50%;
+                padding: 10px;
+            }
+            #img1{
+                text-align: center;
+                margin: 10px;
+            }
+           
+            
+            #section{
+                background-color: green;}
+            
+            table{
+                width: 100%;
+                color: white;
+            }
+            #tablediv{
+                text-align: center;
+                padding: 10px;
+            }
+            #btndiv{
+                text-align: center;
+                margin: auto;
+            }
+            button{
+               padding: 10px; 
+               border: none;
+               background-color: blueviolet;
+               border-radius: 5px;
+               width: 30%;
+               margin-right: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="Maincontainer"></div>
+        <div id="container">
+          <div id="header">  <h1>Ansu Kumar</h1></div>
+        
+        <div id="section">
+          <div id="img1"> <img src="./Bussiness card.HTML.1_files/gettyimages-1179420343-1024x1024.jpg" height="150px" witdh="150px">
+        
+        <div id="p1">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab numquam sequi sunt distinctio, saepe aliquid autem commodi molestiae adipisci assumenda alias soluta sed. Porro nihil, temporibus eveniet ab deleniti saepe beatae ex similique omnis esse accusantium ratione asperiores iste perferendis.
+            </p>
+        </div>
+        <table><tbody><tr>
+            <th>
+                <h4>100</h4>
+                <h4>posts</h4>               
+            </th>
+            <th><h4>300</h4>
+                <h4>Following</h4> </th>
+            <th><h4>1000</h4>
+                <h4>Followers</h4> </th></tr>
+                                    
+
+        </tbody></table>
+    </div>
+        <div id="btndiv"><button>Follow</button>
+            <button>Message</button>
+        </div></div>
+    <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</div></body></html>
